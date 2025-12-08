@@ -62,8 +62,19 @@ body.light-mode .carrousel-item h1{
 }
 body.light-mode .carousel-control-prev-icon,
 body.light-mode .carousel-control-next-icon {
-    filter: invert(1); /* deixa elas pretinhas */
+    filter: invert(1); /* deixa as setas escuras */
 }
 body.light-mode .social-media a {
     color: black !important ;
 }
+body.light-mode .navbar-toggler i,
+body.light-mode .theme-toggle i {
+    color: #ffffff !important;
+}
+body.light-theme .navbar-toggler i {
+    color: #28a745 !important; 
+}
+.navbar-toggler i {
+    transition: color 0.3s ease;
+}
+
