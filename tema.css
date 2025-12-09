@@ -18,6 +18,7 @@ body.light-mode {
 body.light-mode h1 {
     color: black;
 }
+
 /*body.light-mode a{
     color: rgba(103, 103, 103, 0.381);
 }*/
@@ -69,7 +70,7 @@ body.light-mode .social-media a {
 }
 body.light-mode .navbar-toggler i,
 body.light-mode .theme-toggle i {
-    color: #ffffff !important;
+    color: #28A745 !important;
 }
 body.light-theme .navbar-toggler i {
     color: #28a745 !important; 
